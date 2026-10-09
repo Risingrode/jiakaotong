@@ -1,0 +1,2 @@
+{"name":"驾考通 · 科一二三四","short_name":"驾考通","start_url":"./#/","display":"standalone","background_color":"#f3f5f9","theme_color":"#1677ff","orientation":"any",
+"icons":[{"src":"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231677ff'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23fff' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23fff'/%3E%3C/svg%3E","sizes":"any","type":"image/svg+xml"}]}

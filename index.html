@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#1677ff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="驾考通关宝典：科目一、科目四全真题库与模拟考试，科目二、科目三3D模拟驾驶，交通标志图鉴，交警手势，学车全流程指南。">
+<title>驾考通 · 科一二三四一站通关</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231677ff'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23fff' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23fff'/%3E%3Cpath d='M14 32h13M37 32h13M32 37v13' stroke='%23fff' stroke-width='5'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <a class="brand" href="#/">
+      <svg viewBox="0 0 64 64" width="34" height="34"><rect width="64" height="64" rx="14" fill="#1677ff"/><circle cx="32" cy="32" r="18" fill="none" stroke="#fff" stroke-width="5"/><circle cx="32" cy="32" r="5" fill="#fff"/><path d="M14 32h13M37 32h13M32 37v13" stroke="#fff" stroke-width="5"/></svg>
+      <span>驾考通</span>
+    </a>
+    <nav id="sidenav"></nav>
+    <div class="side-foot muted">纯本地运行 · 无广告 · 离线可用</div>
+  </aside>
+  <div id="main">
+    <header id="topbar">
+      <button id="backBtn" class="icon-btn" aria-label="返回">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <h1 id="pageTitle">驾考通</h1>
+      <div class="top-actions">
+        <a class="icon-btn" href="#/ref" aria-label="图鉴">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 2l10 18H2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 9v5M12 17v.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </a>
+        <a class="icon-btn" href="#/me" aria-label="我的">
+          <svg viewBox="0 0 24 24" width="22" height="22"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+    </header>
+    <main id="view"></main>
+    <nav id="tabbar"></nav>
+  </div>
+</div>
+<div id="toast"></div>
+<div id="modalRoot"></div>
+<script src="js/core.js"></script>
+</body>
+</html>
